@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/pic5.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "laptop";
 
 /**
  * Project list
@@ -31,28 +31,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Basic Project of Excel - Data Analytics",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Includes dashboard which describes Sales by month, Percentage of Sales by Category, Total Sales by Person, Sales by Salesperson, and Sale Profit by City.",
+    url: "https://github.com/vaibhavi-y/BasicProject-Of-Excel",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Word Guessing Game Using Python",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Word Guessing Game is a simple and interactive game where players attempt to guess a hidden word by suggesting individual letters within a limited number of attempts.",
+    url: " https://github.com/vaibhavi-y/Python-Games.git ",
   },
   {
-    title: "My Resume Site",
+    title: "My Resume",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Highlighting my academic journey, my resume section showcases a solid foundation in data analytics and relevant coursework, complemented by hands-on experience and a passion for continuous learning.",
+    url: "https://drive.google.com/file/d/1aNfWpl4KHx1i_qEcSjzX5vQjYOxBZ7Ii/view?usp=sharing",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "KBC",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Kaun Banega Crorepati (KBC) game is a quiz-style program where players are asked multiple choice questions to test their general knowledge.",
+    url: "https://github.com/vaibhavi-y/Kbc_game.git",
+  },
+  {
+    title: "Stock Analysis",
+    description:
+      "Amazon stock analysis report providing a comprehensive view of stock performance. It includes overall analysis of trends, high, low, close, and open prices, and in-depth volume analysis. The report identifies price fluctuations, average trading volumes, and significant volume spikes, offering insights into market sentiment and liquidity. A data-driven approach to evaluate Amazon's stock trends and market dynamics.",
+    url: "https://github.com/vaibhavi-y/Amazon-stock-analysis",
   },
 ];
 
